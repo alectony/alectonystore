@@ -4,6 +4,8 @@
  */
 package com.mycompany.alectonystore;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author CL3-PC10
@@ -26,11 +28,422 @@ public class alectonystore3 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        txt10 = new javax.swing.JTextField();
+        txt6 = new javax.swing.JTextField();
+        txt7 = new javax.swing.JTextField();
+        txt8 = new javax.swing.JTextField();
+        txt9 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        txt1 = new javax.swing.JTextField();
+        txt2 = new javax.swing.JTextField();
+        txt3 = new javax.swing.JTextField();
+        txt4 = new javax.swing.JTextField();
+        txt5 = new javax.swing.JTextField();
+        t1 = new javax.swing.JTextField();
+        t2 = new javax.swing.JTextField();
+        jButton3 = new javax.swing.JButton();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
+        jLabel25 = new javax.swing.JLabel();
+        t3 = new javax.swing.JTextField();
+        jLabel26 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("ORDER");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 100, 40));
+
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("[1] Coke  ");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 80, -1, -1));
+
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("[2] Sprite");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, -1, -1));
+
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("[3] MountainDew ");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, -1, -1));
+
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("[4] Nestea");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 140, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, -1, -1));
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("[5] Pineapple Juice");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, -1, -1));
+
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("[1] Sinigang  ");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 80, -1, -1));
+
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("[2] Kalderata ");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, -1, -1));
+
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("[3] Adobo ");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, -1, -1));
+
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("[4] Pancit");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, -1, -1));
+
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setText("[5] Shanghai");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, -1, -1));
+
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("Name:");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 40, 20));
+
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Price:");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, 40, 20));
+
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("Quantity: ");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 60, 20));
+
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("Total:");
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, 40, 20));
+
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("Code:");
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 40, 20));
+
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setText("Name:");
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, 40, 20));
+
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setText("Price:");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 40, 20));
+
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Quantity: ");
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 60, 20));
+
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setText("Total:");
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 40, 20));
+
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("Code:");
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 190, 40, 20));
+        getContentPane().add(txt10, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 270, 70, -1));
+        getContentPane().add(txt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 190, 70, -1));
+        getContentPane().add(txt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 210, 70, -1));
+        getContentPane().add(txt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 230, 70, -1));
+
+        txt9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt9ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt9, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 250, 70, -1));
+
+        jButton1.setText("Order");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 310, -1, -1));
+
+        jButton2.setText("Order");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, -1, -1));
+
+        txt1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 80, -1));
+
+        txt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, 80, -1));
+
+        txt3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 80, -1));
+
+        txt4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 80, -1));
+
+        txt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, 80, -1));
+
+        t1.setEnabled(false);
+        getContentPane().add(t1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 360, 80, -1));
+        getContentPane().add(t2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 430, 80, -1));
+
+        jButton3.setText("Pay");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 480, 80, -1));
+
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel23.setText("Total Change");
+        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 450, 90, 20));
+
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setText("Total with 12% vat tax");
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 360, 130, 20));
+
+        jButton4.setText("Calculate Total with Sub tax");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 390, -1, -1));
+
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel25.setText("Cash");
+        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, 50, 20));
+        getContentPane().add(t3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 450, 80, -1));
+
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC10\\Downloads\\new alec.png")); // NOI18N
+        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, -110, 960, 750));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        int z = Integer.parseInt(txt1.getText());
+        if (z==1)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Sinigang", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt2.setText("Sinigang");
+        txt3.setText("35.00");
+        txt2.setEnabled(false);
+        int x = Integer.parseInt(txt4.getText());
+        txt3.setEnabled(false);
+        int sum = x * 35;
+        txt5.setText(""+sum);
+        }
+        else  if (z==2)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Kaldereta", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt2.setText("Kaldereta");
+        txt3.setText("50.00");
+        txt2.setEnabled(false);
+        int x = Integer.parseInt(txt4.getText());
+        txt3.setEnabled(false);
+        int sum = x * 50;
+        txt5.setText(""+sum);
+        }
+        else  if (z==3)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Adobo", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt2.setText("adobo");
+        txt3.setText("50.00");
+        txt2.setEnabled(false);
+        int x = Integer.parseInt(txt4.getText());
+        txt3.setEnabled(false);
+        int sum = x * 50;
+        txt5.setText(""+sum);
+        }
+        else  if (z==4)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Pancit", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt2.setText("Pancit");
+        txt3.setText("25.00");
+        txt2.setEnabled(false);
+        int x = Integer.parseInt(txt4.getText());
+        txt3.setEnabled(false);
+        int sum = x * 25;
+        txt5.setText(""+sum);
+        }
+        else  if (z==5)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Shanghai", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt2.setText("Shanghai");
+        txt3.setText("10.00");
+        txt2.setEnabled(false);
+        int x = Integer.parseInt(txt4.getText());
+        txt3.setEnabled(false);
+        int sum = x * 10;
+        txt5.setText(""+sum);
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void txt9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt9ActionPerformed
+
+    private void txt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt1ActionPerformed
+
+    private void txt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt2ActionPerformed
+
+    private void txt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3ActionPerformed
+
+    private void txt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt4ActionPerformed
+
+    private void txt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt5ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+                int z = Integer.parseInt(txt6.getText());
+
+         if (z==1)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Coke", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt7.setText("Coke");
+        txt8.setText("15.00");
+        txt7.setEnabled(false);
+        int x = Integer.parseInt(txt9.getText());
+        txt8.setEnabled(false);
+        int sum = x * 15;
+        txt10.setText(""+sum);        
+        }
+         else if (z==2)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose sprite", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt7.setText("Sprite");
+        txt8.setText("15.00");
+        txt7.setEnabled(false);
+        int x = Integer.parseInt(txt9.getText());
+        txt8.setEnabled(false);
+        int sum = x * 15;
+        txt10.setText(""+sum);        
+        }
+         
+          else if (z==3)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose MountainDew", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt7.setText("MountainDew");
+        txt8.setText("18.00");
+        txt7.setEnabled(false);
+        int x = Integer.parseInt(txt9.getText());
+        txt8.setEnabled(false);
+        int sum = x * 18;
+        txt10.setText(""+sum);        
+        }
+         else if (z==4)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Nestea", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt7.setText("Nestea");
+        txt8.setText("10.00");
+        txt7.setEnabled(false);
+        int x = Integer.parseInt(txt9.getText());
+        txt8.setEnabled(false);
+        int sum = x * 10;
+        txt10.setText(""+sum);        
+        }
+        else if (z==5)
+        {
+        JOptionPane.showMessageDialog(null, "You Chose Pineapple Juice", "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        txt7.setText("Pineapple Juice");
+        txt8.setText("10.00");
+        txt7.setEnabled(false);
+        int x = Integer.parseInt(txt9.getText());
+        txt8.setEnabled(false);
+        int sum = x * 10;
+        txt10.setText(""+sum);        
+        }
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        int z = Integer.parseInt(txt5.getText());
+        int x = Integer.parseInt(txt10.getText());
+        int m = z + x;
+        double sum = 0.12 * m;
+        double o = sum + m;
+        int c = Integer.parseInt(t2.getText());
+        double total = c - o;
+        t3.setText(""+total);
+        JOptionPane.showMessageDialog(null, "Your Change is "+total, "alectony store", JOptionPane.INFORMATION_MESSAGE);
+        t2.setEnabled(false);
+        t3.setEnabled(false);
+
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        int z = Integer.parseInt(txt5.getText());
+        int x = Integer.parseInt(txt10.getText());
+        int m = z + x;
+        double sum = m * 0.12;
+        double total = sum + m;
+        t1.setText(""+total);
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -68,5 +481,48 @@ public class alectonystore3 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JTextField t1;
+    private javax.swing.JTextField t2;
+    private javax.swing.JTextField t3;
+    private javax.swing.JTextField txt1;
+    private javax.swing.JTextField txt10;
+    private javax.swing.JTextField txt2;
+    private javax.swing.JTextField txt3;
+    private javax.swing.JTextField txt4;
+    private javax.swing.JTextField txt5;
+    private javax.swing.JTextField txt6;
+    private javax.swing.JTextField txt7;
+    private javax.swing.JTextField txt8;
+    private javax.swing.JTextField txt9;
     // End of variables declaration//GEN-END:variables
 }
